@@ -28,6 +28,7 @@
   require_once('db_functions.php');
   require_once('validation_functions.php');
   
+  include('classes/databaseobject.class.php');
   include('classes/bird.class.php');
   include('classes/parsecsv.class.php');
   // Autoload class definitions
